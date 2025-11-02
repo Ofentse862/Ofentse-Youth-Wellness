@@ -1375,4 +1375,447 @@ footer {
     .roles-grid {
         grid-template-columns: 1fr;
     }
+
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE - COMPREHENSIVE FIX
+   ========================================== */
+
+@media (max-width: 768px) {
+    /* Navigation - Mobile Friendly */
+    .navbar {
+        padding: 0.8rem 0;
+    }
+    
+    .navbar .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .logo {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .logo img {
+        height: 45px;
+    }
+    
+    .logo span {
+        font-size: 1.1rem;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+    
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* Hero Section - Mobile */
+    .hero {
+        padding: 80px 20px 60px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    /* Page Hero - Mobile */
+    .page-hero {
+        padding: 60px 20px;
+    }
+    
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .page-hero p {
+        font-size: 1.1rem;
+    }
+    
+    /* Purpose Section - Mobile */
+    .purpose {
+        padding: 60px 20px;
+    }
+    
+    .purpose h2 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    .purpose p {
+        font-size: 1.1rem;
+    }
+    
+    /* Mission & Vision - Stack on Mobile */
+    .mission-vision {
+        padding: 60px 20px;
+    }
+    
+    .mission-vision .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .mission-box, .vision-box {
+        padding: 35px 25px;
+    }
+    
+    .mission-box h3, .vision-box h3 {
+        font-size: 1.8rem;
+    }
+    
+    /* Programs Grid - Stack on Mobile */
+    .programs-preview {
+        padding: 60px 20px;
+    }
+    
+    .programs-preview h2 {
+        font-size: 2rem;
+    }
+    
+    .programs-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .program-card {
+        padding: 30px 25px;
+    }
+    
+    /* Impact Stats - 2 Column Grid on Mobile */
+    .impact {
+        padding: 60px 20px;
+    }
+    
+    .impact h2 {
+        font-size: 2rem;
+    }
+    
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .stat-box {
+        padding: 30px 20px;
+    }
+    
+    .stat-box h3 {
+        font-size: 2.5rem;
+    }
+    
+    .stat-box p {
+        font-size: 0.9rem;
+    }
+    
+    /* CTA Section - Mobile */
+    .cta-section {
+        padding: 60px 20px;
+    }
+    
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-section p {
+        font-size: 1.1rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 15px 30px;
+        text-align: center;
+    }
+    
+    /* Footer - Stack on Mobile */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .footer-section ul {
+        padding: 0;
+    }
+    
+    /* About Page - Mobile */
+    .about-content {
+        padding: 60px 20px;
+    }
+    
+    .about-intro h2,
+    .values-section h2,
+    .team-section h2,
+    .recognition-section h2 {
+        font-size: 2rem;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .value-card {
+        padding: 25px;
+    }
+    
+    /* Programs Detail - Mobile */
+    .programs-detail {
+        padding: 60px 20px;
+    }
+    
+    .program-detail-card {
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .program-detail-card h2 {
+        font-size: 1.8rem;
+    }
+    
+    .program-detail-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .topics-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .topic-item {
+        padding: 12px 15px;
+        font-size: 0.95rem;
+    }
+    
+    /* Program Benefits - Mobile */
+    .program-benefits {
+        padding: 60px 20px;
+    }
+    
+    .program-benefits h2 {
+        font-size: 2rem;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .benefit-card {
+        padding: 30px 25px;
+    }
+    
+    /* Get Involved - Mobile */
+    .involvement-intro {
+        padding: 60px 20px 30px;
+    }
+    
+    .involvement-intro h2 {
+        font-size: 2rem;
+    }
+    
+    .involvement-options {
+        padding: 40px 20px;
+    }
+    
+    .involvement-card {
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .involvement-card h2 {
+        font-size: 1.8rem;
+    }
+    
+    .involvement-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .roles-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .role-item {
+        padding: 12px 15px;
+        font-size: 0.95rem;
+    }
+    
+    /* Testimonials - Mobile */
+    .testimonials {
+        padding: 60px 20px;
+    }
+    
+    .testimonials h2 {
+        font-size: 2rem;
+    }
+    
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .testimonial-card {
+        padding: 25px 20px;
+    }
+    
+    /* Resources - Mobile */
+    .resources-content {
+        padding: 60px 20px;
+    }
+    
+    .resource-category h2 {
+        font-size: 2rem;
+    }
+    
+    .resources-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .resource-card {
+        padding: 30px 25px;
+    }
+    
+    .emergency-box {
+        padding: 30px 20px;
+    }
+    
+    .emergency-contacts {
+        gap: 12px;
+    }
+    
+    .emergency-item {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    .links-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .link-card {
+        padding: 25px 20px;
+    }
+    
+    /* Contact - Mobile */
+    .contact-content {
+        padding: 60px 20px;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .contact-card,
+    .contact-form-card {
+        padding: 30px 20px;
+    }
+    
+    .contact-card h3,
+    .contact-form-card h3 {
+        font-size: 1.8rem;
+    }
+    
+    .quick-contact-options {
+        margin-bottom: 60px;
+    }
+    
+    .quick-contact-options h2 {
+        font-size: 2rem;
+    }
+    
+    .quick-options-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .quick-option-card {
+        padding: 30px 25px;
+    }
+    
+    .quick-option-card h3 {
+        font-size: 1.6rem;
+    }
+    
+    .emergency-support h2 {
+        font-size: 1.8rem;
+    }
+    
+    .support-box {
+        padding: 30px 20px;
+    }
+    
+    .support-details {
+        padding: 25px 20px;
+    }
+    
+    .support-details h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* Form Elements - Mobile */
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    /* Container Padding - Mobile */
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.7rem;
+    }
+    
+    .page-hero h1 {
+        font-size: 1.9rem;
+    }
+    
+    .purpose h2,
+    .programs-preview h2,
+    .impact h2,
+    .cta-section h2 {
+        font-size: 1.7rem;
+    }
+    
+    .stat-box h3 {
+        font-size: 2.2rem;
+    }
+    
+    .stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn {
+        font-size: 0.95rem;
+        padding: 12px 25px;
+    }
 }
